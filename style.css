@@ -64,4 +64,47 @@ font-size :20px
     font-size :15px
     }
     }
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+    .container {
+      padding: 16px;
+    }
+
+    .container h1 {
+      font-size: 20px;
+    }
+
+    .container button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+
+}
+
+/* iPhone Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+    
+    .container {
+      padding: 32px;
+    }
+
+    .container h1 {
+      font-size: 24px;
+    }
+
+    .container button {
+      font-size: 16px;
+      padding: 12px 24px;
+    }
+
+}
     
